@@ -7,7 +7,7 @@ describe('My tests', () => {
         browser.pause(10000)
         
         await LoginPage.login('student', 'Password123');
-        await LoginPage.message('Logge In Successfully');
+        await LoginPage.message('Logged In Successfully');
 
     })
 
